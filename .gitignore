@@ -1,0 +1,35 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Модели и кеш трансформеров
+models/
+*.pt
+*.bin
+*.h5
+
+# Временные файлы
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Логи
+*.log
+
+# Папки с тестами
+/tests/
+/test/
+
+# Файлы с переменными окружения
+.env
+.env.* 
